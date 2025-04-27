@@ -47,16 +47,12 @@ This module covers foundational DevOps concepts and tools used in enterprise dev
 
 ```
 /modules/01_enterprise_devops/
-├── 01_intro_to_devops/
-├── 02_agile_with_boards/
-├── 03_branch_strategies/
-├── 04_pull_requests/
-├── 05_git_hooks/
-├── 06_inner_source/
-├── 07_repo_management/
-├── 08_technical_debt/
-└── README.md
+├── INTRODUCTION.md
+├── Implementation/
+│   └── IMPLEMENTATION.md
+└── REPORT.md
 ```
+
 
 Each folder contains:
 - lesson.md → Summary of concepts
