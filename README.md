@@ -10,6 +10,13 @@ Gain practical DevOps experience by configuring enterprise-ready infrastructure 
 
 Each module corresponds to a dedicated folder with documentation, IaC scripts, and CI/CD examples.
 
+### 📘 DEMO PROJECT - DevOps Glossary App
+
+A simple glossary web application built using HTML, CSS, and JavaScript for exploring key AZ-400 terms.
+
+🔗 **[Launch the App](https://profadityasaxena.github.io/AZ400_ExamPrep_A_Project_Based_Course/project_repo/)**  
+📁 Located in: `/project_repo/`
+
 ### Module 1: Development for Enterprise DevOps  
 Learning Path: AZ-400: Development for enterprise DevOps  
 Modules: 8  
