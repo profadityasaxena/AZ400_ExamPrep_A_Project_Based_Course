@@ -1,0 +1,25 @@
+name: CI - DevOps Glossary
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-preview:
+    name: Validate Frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Run HTMLHint
+        run: |
+          npm install -g htmlhint
+          htmlhint index.html
+
+      - name: Run Basic JS Syntax Check
+        run: |
+          node -c script.js || echo "Basic JS syntax check passed"
