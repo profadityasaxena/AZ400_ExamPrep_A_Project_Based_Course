@@ -17,8 +17,11 @@ Each module corresponds to a dedicated folder with documentation, IaC scripts, a
 | 🚀 **Production** | [View on Vercel](https://az-400-exam-prep-a-project-based-course.vercel.app) | Vercel |
 | 🧪 **Staging / Demo** | [View on GitHub Pages](https://profadityasaxena.github.io/AZ400_ExamPrep_A_Project_Based_Course/project_repo/) | GitHub Pages |
 
-## Vercel Badge
+### 📈 Status
+
+[![CI](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions/workflows/devops-glossary.yml/badge.svg)](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions)
 [![Vercel](https://vercelbadge.vercel.app/api/profadityasaxena/az-400-exam-prep-a-project-based-course)](https://az-400-exam-prep-a-project-based-course.vercel.app)
+
 
 
 ### Module 1: Development for Enterprise DevOps  
