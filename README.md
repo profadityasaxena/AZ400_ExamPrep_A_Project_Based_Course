@@ -10,12 +10,16 @@ Gain practical DevOps experience by configuring enterprise-ready infrastructure 
 
 Each module corresponds to a dedicated folder with documentation, IaC scripts, and CI/CD examples.
 
-### 📘 DEMO PROJECT - DevOps Glossary App
+## 🌐 Live Deployments
 
-A simple glossary web application built using HTML, CSS, and JavaScript for exploring key AZ-400 terms.
+| Environment | URL | Platform |
+|-------------|-----|----------|
+| 🚀 **Production** | [View on Vercel](https://az-400-exam-prep-a-project-based-course.vercel.app) | Vercel |
+| 🧪 **Staging / Demo** | [View on GitHub Pages](https://profadityasaxena.github.io/AZ400_ExamPrep_A_Project_Based_Course/project_repo/) | GitHub Pages |
 
-🔗 **[Launch the App](https://profadityasaxena.github.io/AZ400_ExamPrep_A_Project_Based_Course/project_repo/)**  
-📁 Located in: `/project_repo/`
+## Vercel Badge
+[![Vercel](https://vercelbadge.vercel.app/api/profadityasaxena/az-400-exam-prep-a-project-based-course)](https://az-400-exam-prep-a-project-based-course.vercel.app)
+
 
 ### Module 1: Development for Enterprise DevOps  
 Learning Path: AZ-400: Development for enterprise DevOps  
