@@ -96,7 +96,7 @@ Folder: `/modules/08_security_compliance/`
 
 **Aditya Saxena**  
 DevOps Engineer | Cloud Architect | Professor  
-[LinkedIn](https://www.linkedin.com/in/adityasaxena)
+[LinkedIn](https://www.linkedin.com/in/adisxnn)
 
 ## License
 
