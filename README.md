@@ -1,3 +1,8 @@
+### 📈 Status
+
+[![CI - DevOps Glossary](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions/workflows/ci.yml/badge.svg)](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions/workflows/ci.yml)
+[![Vercel](https://vercelbadge.vercel.app/api/profadityasaxena/az-400-exam-prep-a-project-based-course)](https://az-400-exam-prep-a-project-based-course.vercel.app)
+
 # Microsoft AZ400 – Exam Prep by Building a Cloud Boilerplate
 
 Welcome to the project-based repository for mastering Microsoft AZ-400: Designing and Implementing Microsoft DevOps Solutions. This course, taught by **Aditya Saxena**, follows a modular, hands-on approach by building a reusable cloud DevOps boilerplate aligned with AZ-400 learning paths.
@@ -16,12 +21,6 @@ Each module corresponds to a dedicated folder with documentation, IaC scripts, a
 |-------------|-----|----------|
 | 🚀 **Production** | [View on Vercel](https://az-400-exam-prep-a-project-based-course.vercel.app) | Vercel |
 | 🧪 **Staging / Demo** | [View on GitHub Pages](https://profadityasaxena.github.io/AZ400_ExamPrep_A_Project_Based_Course/project_repo/) | GitHub Pages |
-
-### 📈 Status
-
-[![CI](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions/workflows/devops-glossary.yml/badge.svg)](https://github.com/profadityasaxena/AZ400_ExamPrep_A_Project_Based_Course/actions)
-[![Vercel](https://vercelbadge.vercel.app/api/profadityasaxena/az-400-exam-prep-a-project-based-course)](https://az-400-exam-prep-a-project-based-course.vercel.app)
-
 
 
 ### Module 1: Development for Enterprise DevOps  

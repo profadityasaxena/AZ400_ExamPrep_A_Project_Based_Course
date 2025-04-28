@@ -1,25 +1,31 @@
 name: CI - DevOps Glossary
 
+# This file defines a GitHub Actions workflow for validating frontend code.
+
+# Trigger the workflow on specific events
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  push: # Trigger the workflow when code is pushed to the repository
+    branches: [main] # Only trigger on pushes to the 'main' branch
+  pull_request: # Trigger the workflow when a pull request is created or updated
+    branches: [main] # Only trigger on pull requests targeting the 'main' branch
 
 jobs:
-  lint-and-preview:
-    name: Validate Frontend
-    runs-on: ubuntu-latest
+  lint-and-preview: # Define a job named 'lint-and-preview'
+    name: Validate Frontend # Display name for the job
+    runs-on: ubuntu-latest # Specify the environment to run the job (latest Ubuntu)
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      # Step 1: Check out the repository code
+      - name: Checkout Repository # Name of the step
+        uses: actions/checkout@v3 # Use the checkout action to clone the repository
 
-      - name: Run HTMLHint
+      # Step 2: Install and run HTMLHint to validate HTML files
+      - name: Run HTMLHint # Name of the step
         run: |
-          npm install -g htmlhint
-          htmlhint index.html
+          npm install -g htmlhint # Install HTMLHint globally using npm
+          htmlhint index.html # Validate the 'index.html' file for HTML issues
 
-      - name: Run Basic JS Syntax Check
+      # Step 3: Perform a basic syntax check for JavaScript files
+      - name: Run Basic JS Syntax Check # Name of the step
         run: |
-          node -c script.js || echo "Basic JS syntax check passed"
+          node -c script.js || echo "Basic JS syntax check passed" # Check syntax of 'script.js' and output a message if successful
