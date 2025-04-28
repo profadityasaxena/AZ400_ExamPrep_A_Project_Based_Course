@@ -1,0 +1,62 @@
+[
+  {
+    "term": "DevOps",
+    "definition": "A set of practices that combines software development and IT operations to shorten the development lifecycle."
+  },
+  {
+    "term": "CI/CD",
+    "definition": "Continuous Integration and Continuous Delivery/Deployment; automates building, testing, and releasing code."
+  },
+  {
+    "term": "Azure DevOps",
+    "definition": "A suite of development tools offered by Microsoft for software project management, CI/CD, and collaboration."
+  },
+  {
+    "term": "Git",
+    "definition": "A distributed version control system used for tracking changes in source code during software development."
+  },
+  {
+    "term": "Azure Pipelines",
+    "definition": "A cloud-based service for automating build and release pipelines within Azure DevOps."
+  },
+  {
+    "term": "GitHub Actions",
+    "definition": "Automation feature in GitHub for CI/CD workflows triggered by repository events."
+  },
+  {
+    "term": "Infrastructure as Code (IaC)",
+    "definition": "The process of managing infrastructure using configuration files, such as with Terraform or Bicep."
+  },
+  {
+    "term": "Terraform",
+    "definition": "An open-source IaC tool for building, changing, and versioning infrastructure safely and efficiently."
+  },
+  {
+    "term": "Bicep",
+    "definition": "A domain-specific language (DSL) for deploying Azure resources declaratively."
+  },
+  {
+    "term": "Azure Key Vault",
+    "definition": "A tool to securely store and access secrets, keys, and certificates in Azure."
+  },
+  {
+    "term": "Pull Request",
+    "definition": "A method of submitting code changes for review before merging into the main branch."
+  },
+  {
+    "term": "Branch Strategy",
+    "definition": "A plan that defines how branches are used in version control systems to streamline collaboration and releases."
+  },
+  {
+    "term": "Monorepo",
+    "definition": "A single repository containing multiple projects or components that are managed together."
+  },
+  {
+    "term": "Git Hook",
+    "definition": "A script that Git executes before or after certain events like commits or merges to automate tasks."
+  },
+  {
+    "term": "Technical Debt",
+    "definition": "The cost of additional work caused by choosing an easy solution now instead of a better one that would take longer."
+  }
+]
